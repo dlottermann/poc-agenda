@@ -18,7 +18,7 @@ app.get("/job", async (req, res) => {
   await agenda.every("1 minutes", "delete old users");
 
   // Alternatively, you could also do:
-  await agenda.every("*/1 * * * *", "delete old users");
+  //await agenda.every("*/1 * * * *", "delete old users");
   res.send("Cron agendada");
 });
 
