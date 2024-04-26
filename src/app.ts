@@ -23,7 +23,7 @@ app.get("/job", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.info("Server rodando na porta 3000");
+  console.info("Server running on port 3000");
 });
 
 //https://roluquec.medium.com/job-queuing-101-start-using-bull-in-your-node-js-project-part-i-2be3ef36a42d
